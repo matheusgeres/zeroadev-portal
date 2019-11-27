@@ -6,6 +6,6 @@ services:
     container_name: zeroadev-portal
     restart: always
     ports:
-      - '8000:80'
+      - '80:80'
     volumes:
       - ./:/var/www/html
